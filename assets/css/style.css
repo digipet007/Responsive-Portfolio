@@ -230,3 +230,26 @@ input[type=submit] {
 a.highlight:hover {
     color: #ff0000;
   } 
+
+@media only screen and (max-width: 980px) {
+      .container {
+          padding: 0 20px;
+          max-width: 768px;
+      }  
+      #main-container {
+          padding-top: 130px;
+      }
+      .main-section {
+          max-width: 420px;
+      }
+      p {
+          clear: both;
+      }
+      .work {
+          width: 100%;
+      }
+      .auth-image {
+          width: 100%;
+          margin-bottom: 20px;
+      }
+}
