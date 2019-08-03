@@ -213,7 +213,7 @@ input[type=text],
 input[type=email],
 textarea {
     height: 35px;
-    border: 1px solid #ccc:
+    border: 1px solid #ccc;
     padding: 0 10px;
     font-size: 14px;
 }
@@ -243,15 +243,18 @@ a.highlight:hover {
       #main-container {
           padding-top: 130px;
       }
-      .main-section {
-          max-width: 420px;
+      .main-section {   
+          max-width: 100%;
       }
       .work {
-          width: 100%;
+          width: 50%;
       }
       .auth-image {
           width: 100%;
           margin-bottom: 20px;
+      }
+      .sidebar {
+          max-width: 100%;
       }
 }
 
@@ -269,7 +272,8 @@ a.highlight:hover {
     }
     /*This section was overriding the last media query- problem fixed.*/
     .work {
-        width: 250px; 
+        /* width: 250px;  */
+        width: 45%;
         margin-bottom: 0px;  
     }
     .work:nth-child(even) {
