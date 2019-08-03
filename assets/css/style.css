@@ -267,7 +267,7 @@ a.highlight:hover {
     .sidebar {
         margin-bottom: 40px;
     }
-    /*This section was overriding the last media query*/
+    /*This section was overriding the last media query- problem fixed.*/
     .work {
         width: 250px; 
         margin-bottom: 0px;  
