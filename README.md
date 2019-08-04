@@ -7,6 +7,7 @@ This site serves as a portfolio and information page about Sarah Arnold. Looking
 
 ## Built With
 HTML, CSS
+Utilizes media queries for mobile-responsiveness
 
 ## Author
 
