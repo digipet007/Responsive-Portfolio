@@ -114,6 +114,14 @@ nav a:first-child {
     margin-right: 25px;
 }
 
+.projectOne {
+    width: 240px;
+    height: 71.64%;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
 .sidebar {
     background: #fff;
     padding: 30px;
