@@ -174,6 +174,15 @@ footer {
     margin: 28px 0 25px;
 }
 
+.port-image{
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+    height: 150px;
+    width: 270px;
+    object-fit: cover;
+}
+
 .work:nth-child(even) {
     margin-right: 48px;
 }
@@ -257,7 +266,7 @@ a.highlight:hover {
       .work {
           width: 50%;
       }
-      .auth-image {
+      .auth-image, .port-image {
           width: 100%;
           margin-bottom: 20px;
       }
@@ -282,7 +291,13 @@ a.highlight:hover {
     .work {
         /* width: 250px;  */
         width: 45%;
-        margin-bottom: 0px;  
+        margin-bottom: 0px; 
+        
+        /* height: 150px;
+        width: 300px; */
+        object-fit: cover; 
+
+        /* 552 x 276 */
     }
     .work:nth-child(even) {
         margin-right: 10px;
@@ -290,7 +305,7 @@ a.highlight:hover {
     .work:nth-child(odd) {
         float: right;
     }
-    .auth-image {
+    .auth-image, .port-image {
         width: 60%;
     }
 /*deleted a closing bracket here, underlined in red, and the problem was partially fixed for lower range media query*/
